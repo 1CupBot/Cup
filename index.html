@@ -26,11 +26,17 @@
         
         <!-- Pop-up para la recompensa diaria -->
         <div id="rewardPopup" class="popup hidden">
-            <p>You've earned a reward for Day <span id="rewardDay">1</span>!</p>
-            <button id="claimReward">Claim</button>
+            <p>Recompenza Diaria<span id="rewardDay">1</span>!</p>
+            <button id="claimReward">Reclamar</button>
         </div>
     </div>
     
     <script src="scripts.js"></script>
+     <script>
+        // Asegurar pantalla completa en Telegram Mini App
+        if (window.Telegram.WebApp) {
+            Telegram.WebApp.expand();
+        }
+    </script>
 </body>
 </html>
