@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header con botones -->
+        <header>
+            <button id="dailyReward">Daily Reward</button>
+            <button id="staking">Staking</button>
+            <button id="referrals">Referrals</button>
+            <button id="tasks">Tasks</button>
+            <button id="wallet">Wallet</button>
+        </header>
+        
+        <!-- Sección principal con el tap de monedas -->
+        <main>
+            <div id="tapGame">
+                <div class="coin" id="coin"></div>
+                <p id="coinCount">Coins: 0</p>
+            </div>
+        </main>
+        
+        <!-- Pop-up para la recompensa diaria -->
+        <div id="rewardPopup" class="popup hidden">
+            <p>You've earned a reward for Day <span id="rewardDay">1</span>!</p>
+            <button id="claimReward">Claim</button>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
