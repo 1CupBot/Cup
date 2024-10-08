@@ -32,5 +32,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Simula mostrar la recompensa diaria después de un tiempo (aquí lo hacemos manual)
-    setTimeout(showDailyRewardPopup, 5000); // Mostrar el popup después de 5 segundos
+    setTimeout(showDailyRewardPopup, 1000); // Mostrar el popup después de 5 segundos
 });
